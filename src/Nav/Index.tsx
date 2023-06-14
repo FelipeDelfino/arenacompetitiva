@@ -8,7 +8,7 @@ export default function Nav() {
     return (
         <Flex color='white' bg='#161616' h='90px' w='100%'>
             <Container maxW='1340px'>
-                <HStack align='center' h='100%' gap={16}>
+                <Flex align='center' h='100%' gap={16}>
                     <Box>
                         <Image
                             src={logo}
@@ -117,7 +117,7 @@ export default function Nav() {
                             </Button>
                         </HStack>
                     </Box>
-                </HStack>
+                </Flex>
             </Container>
         </Flex>
     )
