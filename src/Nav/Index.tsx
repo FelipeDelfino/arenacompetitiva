@@ -28,7 +28,7 @@ export default function Nav() {
                     <ModalHeader color='#9600ff'>
                         Faça seu Login
                     </ModalHeader>
-                    <ModalCloseButton color='white' />
+                    <ModalCloseButton color='white' _hover={{background:'#121212'}}/>
                     <ModalBody mt='5'>
 
                         <FormControl>
