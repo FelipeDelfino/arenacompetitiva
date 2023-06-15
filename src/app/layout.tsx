@@ -1,10 +1,11 @@
 import './globals.css'
+import { Analytics } from '@vercel/analytics/react';
 import { Roboto_Condensed } from 'next/font/google'
 import { Providers } from './providers'
 
-const roboto = Roboto_Condensed({ 
+const roboto = Roboto_Condensed({
   subsets: ['latin'],
-  weight: [ "400", "700"],
+  weight: ["400", "700"],
 
 });
 
@@ -20,13 +21,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={roboto.className}>
       <head>
-      <link rel="icon" type="image/svg" sizes="32x32" href="/arena.svg"/>
-      <link rel="icon" type="image/svg" sizes="16x16" href="/arena.svg"/>
+        <link rel="icon" type="image/svg" sizes="32x32" href="/arena.svg" />
+        <link rel="icon" type="image/svg" sizes="16x16" href="/arena.svg" />
       </head>
       <body className={roboto.className}>
         <Providers>
           {children}
         </Providers>
+        <Analytics/>
       </body>
     </html>
   )
