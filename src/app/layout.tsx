@@ -19,6 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={roboto.className}>
+      <head>
+      <link rel="icon" type="image/svg" sizes="32x32" href="/arena.svg"/>
+      <link rel="icon" type="image/svg" sizes="16x16" href="/arena.svg"/>
+      </head>
       <body className={roboto.className}>
         <Providers>
           {children}

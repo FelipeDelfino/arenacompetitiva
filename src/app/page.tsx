@@ -163,7 +163,7 @@ export default function Home() {
             <HStack h='100%' align='center' justify='center' gap={12}>
               <LinkBox
                 as={motion.div}
-                whileHover={{ scale: 1.1, boxShadow:'lg' }}
+                whileHover={{ scale: 1.1, boxShadow: 'lg' }}
                 whileTap={{ scale: 1 }}
                 transition='0.1s linear'
                 bg='#121212'
@@ -187,163 +187,163 @@ export default function Home() {
                           <Text fontSize='xl' color='white' as='b'>
                             Contra Squad - 4v4
                           </Text>
-                          <Spacer/>
+                          <Spacer />
                           <Text fontSize='md' color='white'>
                             <Highlight
-                            query='mobile'
-                            styles={{ px: '2', py: '1', rounded: 'full', bg: 'red.500', color: 'white' }}>
-                            Mobile
+                              query='mobile'
+                              styles={{ px: '2', py: '1', rounded: 'full', bg: 'red.500', color: 'white' }}>
+                              Mobile
                             </Highlight>
                           </Text>
                         </Flex>
                         <Wrap mt='6'>
                           <WrapItem>
-                          <Button 
-                          variant='outline' 
-                          colorScheme="red" 
-                          borderColor='red.500'
-                          w='92px'
-                          _hover={{
-                            bg:'red.500',
-                            color: 'white'
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
 
-                          }}
-                          >
-                          18:00
-                          </Button>
-                          </WrapItem>
-                          <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            18:30
+                              }}
+                            >
+                              18:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            19:00
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              18:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            19:30
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              19:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            20:00
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              19:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            20:30
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              20:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            21:00
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              20:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            21:30
-                           </Button>
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              21:00
+                            </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >22:00
-                           </Button>
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              21:30
+                            </Button>
+                          </WrapItem>
+                          <WrapItem>
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >22:00
+                            </Button>
                           </WrapItem>
                         </Wrap>
                         <Flex mt='6' align='center'>
                           <Text color='gray.200'> {dataFormatada} </Text>
-                          <Spacer/>
-                          <Button 
-                          colorScheme='red' 
-                          variant='ghost' 
-                          _hover={{
-                             bg:'red.500',
-                             color: 'white'
-                           }}>Ver Detalhes</Button>
+                          <Spacer />
+                          <Button
+                            colorScheme='red'
+                            variant='ghost'
+                            _hover={{
+                              bg: 'red.500',
+                              color: 'white'
+                            }}>Ver Detalhes</Button>
                         </Flex>
-                      </CardBody>                     
+                      </CardBody>
                     </LinkOverlay>
                   </Card>
                 </Stack>
@@ -374,163 +374,163 @@ export default function Home() {
                           <Text fontSize='xl' color='white' as='b'>
                             Contra Squad - 4v4
                           </Text>
-                          <Spacer/>
+                          <Spacer />
                           <Text fontSize='md' color='white'>
                             <Highlight
-                            query='emulador'
-                            styles={{ px: '2', py: '1', rounded: 'full', bg: 'yellow.600', color: 'white' }}>
-                            Emulador
+                              query='emulador'
+                              styles={{ px: '2', py: '1', rounded: 'full', bg: 'yellow.600', color: 'white' }}>
+                              Emulador
                             </Highlight>
                           </Text>
                         </Flex>
                         <Wrap mt='6'>
                           <WrapItem>
-                          <Button 
-                          variant='outline' 
-                          colorScheme="yellow" 
-                          borderColor='yellow.600'
-                          w='92px'
-                          _hover={{
-                            bg:'yellow.600',
-                            color: 'white'
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
 
-                          }}
-                          >
-                          18:00
-                          </Button>
-                          </WrapItem>
-                          <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            18:30
+                              }}
+                            >
+                              18:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            19:00
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              18:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            19:30
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              19:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            20:00
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              19:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            20:30
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              20:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            21:00
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              20:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            21:30
-                           </Button>
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              21:00
+                            </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >22:00
-                           </Button>
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              21:30
+                            </Button>
+                          </WrapItem>
+                          <WrapItem>
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >22:00
+                            </Button>
                           </WrapItem>
                         </Wrap>
                         <Flex mt='6' align='center'>
                           <Text color='gray.200'> {dataFormatada} </Text>
-                          <Spacer/>
-                          <Button 
-                          colorScheme='yellow' 
-                          variant='ghost' 
-                          _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
-                           }}>Ver Detalhes</Button>
+                          <Spacer />
+                          <Button
+                            colorScheme='yellow'
+                            variant='ghost'
+                            _hover={{
+                              bg: 'yellow.600',
+                              color: 'white'
+                            }}>Ver Detalhes</Button>
                         </Flex>
-                      </CardBody>                     
+                      </CardBody>
                     </LinkOverlay>
                   </Card>
                 </Stack>
@@ -561,170 +561,170 @@ export default function Home() {
                           <Text fontSize='xl' color='white' as='b'>
                             Battle Royale - Squad
                           </Text>
-                          <Spacer/>
+                          <Spacer />
                           <Text fontSize='md' color='white'>
                             <Highlight
-                            query='mobile'
-                            styles={{ px: '2', py: '1', rounded: 'full', bg: 'red.500', color: 'white' }}>
-                            Mobile
+                              query='mobile'
+                              styles={{ px: '2', py: '1', rounded: 'full', bg: 'red.500', color: 'white' }}>
+                              Mobile
                             </Highlight>
                           </Text>
                         </Flex>
                         <Wrap mt='6'>
                           <WrapItem>
-                          <Button 
-                          variant='outline' 
-                          colorScheme="red" 
-                          borderColor='red.500'
-                          w='92px'
-                          _hover={{
-                            bg:'red.500',
-                            color: 'white'
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
 
-                          }}
-                          >
-                          18:00
-                          </Button>
-                          </WrapItem>
-                          <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            18:30
+                              }}
+                            >
+                              18:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            19:00
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              18:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            19:30
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              19:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            20:00
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              19:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            20:30
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              20:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            21:00
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              20:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >
-                            21:30
-                           </Button>
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              21:00
+                            </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="red" 
-                           borderColor='red.500'
-                           w='92px'
-                           _hover={{
-                             bg:'red.500',
-                             color: 'white'
- 
-                           }}
-                           >22:00
-                           </Button>
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >
+                              21:30
+                            </Button>
+                          </WrapItem>
+                          <WrapItem>
+                            <Button
+                              variant='outline'
+                              colorScheme="red"
+                              borderColor='red.500'
+                              w='92px'
+                              _hover={{
+                                bg: 'red.500',
+                                color: 'white'
+
+                              }}
+                            >22:00
+                            </Button>
                           </WrapItem>
                         </Wrap>
                         <Flex mt='6' align='center'>
                           <Text color='gray.200'> {dataFormatada} </Text>
-                          <Spacer/>
-                          <Button 
-                          colorScheme='red' 
-                          variant='ghost' 
-                          _hover={{
-                             bg:'red.500',
-                             color: 'white'
-                           }}>Ver Detalhes</Button>
+                          <Spacer />
+                          <Button
+                            colorScheme='red'
+                            variant='ghost'
+                            _hover={{
+                              bg: 'red.500',
+                              color: 'white'
+                            }}>Ver Detalhes</Button>
                         </Flex>
-                      </CardBody>                     
+                      </CardBody>
                     </LinkOverlay>
                   </Card>
                 </Stack>
               </LinkBox>
               <LinkBox
                 as={motion.div}
-                whileHover={{ scale: 1.1, boxShadow:'dark-lg'}}
+                whileHover={{ scale: 1.1, boxShadow: 'dark-lg' }}
                 whileTap={{ scale: 1 }}
                 transition='0.1s linear'
                 bg='#121212'
@@ -733,7 +733,7 @@ export default function Home() {
                 borderRadius='20px'
               >
                 <Stack align='center' h='100%' justify='center'>
-                <Card
+                  <Card
                     h='97%'
                     w='96%'
                     borderRadius='15px'
@@ -748,163 +748,163 @@ export default function Home() {
                           <Text fontSize='xl' color='white' as='b'>
                             Battle Royale - Squad
                           </Text>
-                          <Spacer/>
+                          <Spacer />
                           <Text fontSize='md' color='white'>
                             <Highlight
-                            query='emulador'
-                            styles={{ px: '2', py: '1', rounded: 'full', bg: 'yellow.600', color: 'white' }}>
-                            Emulador
+                              query='emulador'
+                              styles={{ px: '2', py: '1', rounded: 'full', bg: 'yellow.600', color: 'white' }}>
+                              Emulador
                             </Highlight>
                           </Text>
                         </Flex>
                         <Wrap mt='6'>
                           <WrapItem>
-                          <Button 
-                          variant='outline' 
-                          colorScheme="yellow" 
-                          borderColor='yellow.600'
-                          w='92px'
-                          _hover={{
-                            bg:'yellow.600',
-                            color: 'white'
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
 
-                          }}
-                          >
-                          18:00
-                          </Button>
-                          </WrapItem>
-                          <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            18:30
+                              }}
+                            >
+                              18:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            19:00
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              18:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            19:30
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              19:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            20:00
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              19:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            20:30
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              20:00
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            21:00
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              20:30
                             </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >
-                            21:30
-                           </Button>
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              21:00
+                            </Button>
                           </WrapItem>
                           <WrapItem>
-                          <Button 
-                           variant='outline' 
-                           colorScheme="yellow" 
-                           borderColor='yellow.600'
-                           w='92px'
-                           _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
- 
-                           }}
-                           >22:00
-                           </Button>
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >
+                              21:30
+                            </Button>
+                          </WrapItem>
+                          <WrapItem>
+                            <Button
+                              variant='outline'
+                              colorScheme="yellow"
+                              borderColor='yellow.600'
+                              w='92px'
+                              _hover={{
+                                bg: 'yellow.600',
+                                color: 'white'
+
+                              }}
+                            >22:00
+                            </Button>
                           </WrapItem>
                         </Wrap>
                         <Flex mt='6' align='center'>
                           <Text color='gray.200'> {dataFormatada} </Text>
-                          <Spacer/>
-                          <Button 
-                          colorScheme='yellow' 
-                          variant='ghost' 
-                          _hover={{
-                             bg:'yellow.600',
-                             color: 'white'
-                           }}>Ver Detalhes</Button>
+                          <Spacer />
+                          <Button
+                            colorScheme='yellow'
+                            variant='ghost'
+                            _hover={{
+                              bg: 'yellow.600',
+                              color: 'white'
+                            }}>Ver Detalhes</Button>
                         </Flex>
-                      </CardBody>                     
+                      </CardBody>
                     </LinkOverlay>
                   </Card>
                 </Stack>
