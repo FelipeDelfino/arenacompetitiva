@@ -1,5 +1,5 @@
 'use client'
-import { Box, Button, Container, Flex, HStack, Text, LinkBox, LinkOverlay, Stack, Card, CardBody, Image, Highlight, Spacer, Wrap, WrapItem, CardFooter } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, HStack, VStack, Text, LinkBox, LinkOverlay, Stack, Card, CardBody, Image, Highlight, Spacer, Wrap, WrapItem, CardFooter } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 import freefireone from '../../public/ff.jpg'
@@ -41,23 +41,24 @@ export default function Home() {
             w='100%'
             h='100%'
           >
-            <HStack align='inherit' h='100%' gap={20}>
+            <HStack align='inherit' h='100%'>
               <Box
-                width='700px'
-                h='100%'
-                ml='-16px'
+                width=''
+                h='850px'
+                ml=''
                 bg=''
                 borderRadius='40px 40px 0px 0px'
               >
                 <video loop autoPlay muted preload="none" style={{
                   borderRadius: '40px 40px 0px 0px',
+                  height: '100%'
                 }}>
-                  <source src='https://bucketarena.s3.sa-east-1.amazonaws.com/video.mp4' type='video/mp4' />
+                  <source src='https://bucketarena.s3.sa-east-1.amazonaws.com/alek+da+oreia.mp4' type='video/mp4' />
                 </video>
 
 
               </Box>
-              <Box mt='20'>
+              {/* <Box mt='20'>
                 <HStack spacing={3}>
                   <Text fontSize='6xl' as='b' color='#9600ff'>
                     Ganhe
@@ -111,7 +112,7 @@ export default function Home() {
                     Saiba Mais
                   </Button>
                 </HStack>
-              </Box>
+              </Box> */}
             </HStack>
           </Box>
         </Container>
@@ -172,47 +173,40 @@ export default function Home() {
                 borderRadius='20px'
               >
                 <Stack align='center' h='100%' justify='center'>
-                  <Card
+                  <Box
+                    backgroundImage="url('https://bucketarena.s3.sa-east-1.amazonaws.com/images/1_00000.png')"
+                    backgroundPosition="center"
+                    backgroundRepeat="no-repeat"
                     h='97%'
                     w='96%'
                     borderRadius='15px'
                     border='2px'
-                    borderColor='red.600'
-                    bg='#121212'
+                    borderColor='#cc0304'
+
                   >
                     <LinkOverlay href='/'>
-                      <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/ff.jpg' alt='' borderRadius='12px 12px 0px 0px' p='1' />
-                      <CardBody>
-                        <Flex align='center'>
-                          <Text fontSize='xl' color='white' as='b'>
-                            Contra Squad - 4v4
+                      <Box display='flex' alignItems='end' h='100%'>
+                        <VStack align='stretch' p='4'>
+                        
+
+                        <HStack>
+                          <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/icon-mob-red.png' boxSize={35}/>
+                          <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/icon-plat.png' opacity='0.6' boxSize={50}/>
+                        </HStack>
+                        
+                          <Text color='#cc0304' fontSize='2xl' as='b'>
+                            CONTRA SQUAD - 4X4
                           </Text>
-                          <Spacer />
-                          <Text fontSize='md' color='white'>
-                            <Highlight
-                              query='mobile'
-                              styles={{ px: '2', py: '1', rounded: 'full', bg: 'red.500', color: 'white' }}>
-                              Mobile
-                            </Highlight>
-                          </Text>
-                        </Flex>
-                        <Text align='justify' color='white' mt='6'>
+                          <Text color='white'>
                             Desafie outros jogadores mobile em partidas de modo CS/4v4 com seu Squad e fature sendo campeão!
                           </Text>
-                        <Flex mt='20' align='center'>
-                          <Text color='gray.200'> {dataFormatada} </Text>
-                          <Spacer />
-                          <Button
-                            colorScheme='red'
-                            variant='ghost'
-                            _hover={{
-                              bg: 'red.500',
-                              color: 'white'
-                            }}>Ver Detalhes</Button>
-                        </Flex>
-                      </CardBody>
+
+                        </VStack>
+                      </Box>
+
+
                     </LinkOverlay>
-                  </Card>
+                  </Box>
                 </Stack>
               </LinkBox>
               <LinkBox
@@ -226,101 +220,38 @@ export default function Home() {
                 borderRadius='20px'
               >
                 <Stack align='center' h='100%' justify='center'>
-                  <Card
+                  <Box
+                    backgroundImage="url('https://bucketarena.s3.sa-east-1.amazonaws.com/images/2_00000.png')"
+                    backgroundPosition="center"
+                    backgroundRepeat="no-repeat"
                     h='97%'
                     w='96%'
                     borderRadius='15px'
                     border='2px'
-                    borderColor='yellow.600'
-                    bg='#121212'
+                    borderColor='#7603CB'
+
                   >
                     <LinkOverlay href='/'>
-                      <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/ff.jpg' alt='' borderRadius='12px 12px 0px 0px' p='1' />
-                      <CardBody>
-                        <Flex align='center'>
-                          <Text fontSize='xl' color='white' as='b'>
-                            Contra Squad - 4v4
+                    <Box display='flex' alignItems='end' h='100%'>
+                        <VStack align='stretch' p='4'>
+                        
+
+                        <HStack>
+                          <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/icon-emu-purple.png' boxSize={35}/>
+                          <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/icon-plat.png' opacity='0.6' boxSize={50}/>
+                        </HStack>
+                        
+                          <Text color='#7603CB' fontSize='2xl' as='b'>
+                            CONTRA SQUAD - 4X4
                           </Text>
-                          <Spacer />
-                          <Text fontSize='md' color='white'>
-                            <Highlight
-                              query='emulador'
-                              styles={{ px: '2', py: '1', rounded: 'full', bg: 'yellow.600', color: 'white' }}>
-                              Emulador
-                            </Highlight>
+                          <Text color='white'>
+                            Desafie outros jogadores de plataforma mista em partidas de modo CS/4v4 com seu Squad e fature sendo campeão!
                           </Text>
-                        </Flex>
-                        <Text align='justify' color='white' mt='6'>
-                            Desafie outros jogadores emuladores em partidas de modo CS-4v4 com seu Squad e fature sendo campeão!
-                          </Text>
-                        <Flex mt='20' align='center'>
-                          <Text color='gray.200'> {dataFormatada} </Text>
-                          <Spacer />
-                          <Button
-                            colorScheme='yellow'
-                            variant='ghost'
-                            _hover={{
-                              bg: 'yellow.600',
-                              color: 'white'
-                            }}>Ver Detalhes</Button>
-                        </Flex>
-                      </CardBody>
+
+                        </VStack>
+                      </Box>
                     </LinkOverlay>
-                  </Card>
-                </Stack>
-              </LinkBox>
-              <LinkBox
-                as={motion.div}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 1 }}
-                transition='0.1s linear'
-                bg='#121212'
-                w='350px'
-                h='500px'
-                borderRadius='20px'
-              >
-                <Stack align='center' h='100%' justify='center'>
-                  <Card
-                    h='97%'
-                    w='96%'
-                    borderRadius='15px'
-                    border='2px'
-                    borderColor='red.600'
-                    bg='#121212'
-                  >
-                    <LinkOverlay href='/'>
-                      <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/ffbattle.jpg' alt='' borderRadius='12px 12px 0px 0px' p='1' />
-                      <CardBody>
-                        <Flex align='center'>
-                          <Text fontSize='xl' color='white' as='b'>
-                            Battle Royale - Squad
-                          </Text>
-                          <Spacer />
-                          <Text fontSize='md' color='white'>
-                            <Highlight
-                              query='mobile'
-                              styles={{ px: '2', py: '1', rounded: 'full', bg: 'red.500', color: 'white' }}>
-                              Mobile
-                            </Highlight>
-                          </Text>
-                        </Flex>
-                          <Text align='justify' color='white' mt='6'>
-                            Desafie outros jogadores mobile em partidas de BattleRoyale com seu Squad e fature sendo campeão!
-                          </Text>
-                        <Flex mt='20' align='center'>
-                          <Text color='gray.200'> {dataFormatada} </Text>
-                          <Spacer />
-                          <Button
-                            colorScheme='red'
-                            variant='ghost'
-                            _hover={{
-                              bg: 'red.500',
-                              color: 'white'
-                            }}>Ver Detalhes</Button>
-                        </Flex>
-                      </CardBody>
-                    </LinkOverlay>
-                  </Card>
+                  </Box>
                 </Stack>
               </LinkBox>
               <LinkBox
@@ -334,48 +265,81 @@ export default function Home() {
                 borderRadius='20px'
               >
                 <Stack align='center' h='100%' justify='center'>
-                  <Card
+                  <Box
+                    backgroundImage="url('https://bucketarena.s3.sa-east-1.amazonaws.com/images/4_00000.png')"
+                    backgroundPosition="center"
+                    backgroundRepeat="no-repeat"
                     h='97%'
                     w='96%'
                     borderRadius='15px'
                     border='2px'
-                    borderColor='yellow.600'
-                    bg='#121212'
+                    borderColor='#0328E0'
+
                   >
                     <LinkOverlay href='/'>
-                      <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/ffbattle.jpg' alt='' borderRadius='12px 12px 0px 0px' p='1' />
-                      <CardBody>
-                        <Flex align='center'>
-                          <Text fontSize='xl' color='white' as='b'>
-                            Battle Royale - Squad
+                    <Box display='flex' alignItems='end' h='100%'>
+                        <VStack align='stretch' p='4'>
+
+                        <HStack gap={4}>
+                          <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/icon-mob-blue.png' boxSize={35}/>
+                          <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/icon-plat.png' opacity='0.6' boxSize={50}/>
+                        </HStack>
+                        
+                          <Text color='#0328E0' fontSize='2xl' as='b'>
+                            BATTLE ROYALE - SQUAD
                           </Text>
-                          
-                          <Spacer />
-                          <Text fontSize='md' color='white'>
-                            <Highlight
-                              query='emulador'
-                              styles={{ px: '2', py: '1', rounded: 'full', bg: 'yellow.600', color: 'white' }}>
-                              Emulador
-                            </Highlight>
+                          <Text color='white'>
+                          Desafie outros jogadores mobile em partidas de BattleRoyale com seu Squad e fature sendo campeão!
                           </Text>
-                        </Flex>
-                        <Text align='justify' color='white' mt='6'>
-                            Desafie outros jogadores emuladores em partidas de BattleRoyale com seu Squad e fature sendo campeão!
-                          </Text>
-                        <Flex mt='20' align='center'>
-                          <Text color='gray.200'> {dataFormatada} </Text>
-                          <Spacer />
-                          <Button
-                            colorScheme='yellow'
-                            variant='ghost'
-                            _hover={{
-                              bg: 'yellow.600',
-                              color: 'white'
-                            }}>Ver Detalhes</Button>
-                        </Flex>
-                      </CardBody>
+
+                        </VStack>
+                      </Box>
                     </LinkOverlay>
-                  </Card>
+                  </Box>
+                </Stack>
+              </LinkBox>
+              <LinkBox
+                as={motion.div}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 1 }}
+                transition='0.1s linear'
+                bg='#121212'
+                w='350px'
+                h='500px'
+                borderRadius='20px'
+              >
+                <Stack align='center' h='100%' justify='center'>
+                  <Box
+                    backgroundImage="url('https://bucketarena.s3.sa-east-1.amazonaws.com/images/3_00000.png')"
+                    backgroundPosition="center"
+                    backgroundRepeat="no-repeat"
+                    h='97%'
+                    w='96%'
+                    borderRadius='15px'
+                    border='2px'
+                    borderColor='yellow.500'
+
+                  >
+                    <LinkOverlay href='/'>
+                    <Box display='flex' alignItems='end' h='100%'>
+                        <VStack align='stretch' p='4'>
+
+                        <HStack gap={4}>
+                          <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/icon-emu-yellow.png' boxSize={35}/>
+                          <Image src='https://bucketarena.s3.sa-east-1.amazonaws.com/images/icon-plat.png' opacity='0.6' boxSize={50}/>
+                        </HStack>
+                        
+                          <Text color='yellow.500' fontSize='2xl' as='b'>
+                            BATTLE ROYALE - SQUAD
+                          </Text>
+                          <Text color='white'>
+                          Desafie outros jogadores de plataforma mista em partidas de BattleRoyale com seu Squad e fature sendo campeão!
+                          </Text>
+
+                        </VStack>
+                      </Box>
+                    </LinkOverlay>
+                  </Box>
                 </Stack>
               </LinkBox>
             </HStack>

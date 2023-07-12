@@ -23,7 +23,7 @@ export default function Nav() {
                 isCentered
                 size='lg'
             >
-                <ModalOverlay bg='blackAlpha.300' backdropFilter='blur(5px) '/>
+                <ModalOverlay bg='blackAlpha.300' backdropFilter='blur(5px)'/>
                 <ModalContent bg='#161616'>
                     <ModalHeader color='#9600ff'>
                         Faça seu Login
